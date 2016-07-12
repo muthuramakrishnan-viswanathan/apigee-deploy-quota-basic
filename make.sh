@@ -1,1 +1,1 @@
-apigeetool deployproxy -P$env -Dusername=$ae_username -Dpassword=$ae_password -Dorg=$org -n 'quota-basic'
+apigeetool deployproxy -e $env -u $ae_username -p $ae_password -o $org -n 'quota-basic'
